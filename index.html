@@ -284,20 +284,6 @@
         </div>
     </footer>
 
-  <!-- Script para tocar o vídeo ao clicar -->
-  <script>
-function playVideo(videoId) {
-  var video = document.getElementById(videoId);
-  var overlay = video.previousElementSibling; // A sobreposição informativa
-  if (video.paused) {
-    video.play();  // Começa a rodar o vídeo
-    overlay.style.opacity = '0'; // Remove a sobreposição
-  } else {
-    video.pause(); // Pausa o vídeo, se já estiver tocando
-    overlay.style.opacity = '1'; // Volta a mostrar a sobreposição
-  }
-}
-  </script>
   
   <script>
     // Função para rolagem suave
